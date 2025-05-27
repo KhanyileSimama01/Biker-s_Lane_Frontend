@@ -104,3 +104,30 @@ footer {
 .image-container {
   text-align: center;
 }
+
+.floating-button {
+      width: 300;
+      height: 300;
+      padding: 15px 30px;
+      font-size: 18px;
+      color: white;
+      background: linear-gradient(145deg, #00bcd4, #0097a7);
+      border: none;
+      border-radius: 12px;
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25),
+                  0 6px 6px rgba(0, 0, 0, 0.22);
+      cursor: pointer;
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+      transform: translateZ(0);
+    }
+
+.floating-button:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 15px 25px rgba(0, 0, 0, 0.3),
+                  0 10px 10px rgba(0, 0, 0, 0.22);
+    }
+
+.floating-button:active {
+      transform: translateY(1px);
+      box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    }
