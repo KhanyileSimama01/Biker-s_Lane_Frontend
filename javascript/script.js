@@ -55,7 +55,7 @@ document.addEventListener("DOMContentLoaded", function () {
         <h3>${product.name}</h3>
         <p>${product.description}</p>
         <p><strong>R${product.price.toFixed(2)}</strong></p>
-        <button class="floating-button2" onclick="addToCart('${product.id}')">Add to Cart</button>
+        <button class="floating-button" onclick="addToCart('${product.id}')">Add to Cart</button>
       `;
       container.appendChild(card);
     });
