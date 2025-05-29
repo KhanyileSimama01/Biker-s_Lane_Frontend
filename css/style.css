@@ -19,7 +19,7 @@
     font-size: 1.2rem;
     color: var(--text);
   }
-  
+
 body {
   margin: 0;
   font-family: Arial, sans-serif;
@@ -140,4 +140,12 @@ footer {
 .floating-button:active {
       transform: translateY(1px);
       box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.scroll-hint {
+  font-weight: bold;
+  text-align: center;
+  font-size: 1.2rem;
+  margin-top: 1.5rem;
+  color: var(--text); /* Uses your theme variable */
 }
