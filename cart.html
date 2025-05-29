@@ -46,6 +46,7 @@
 
         const div = document.createElement("div");
         div.innerHTML = `
+        <div style="color: black;">
           <h3>${product.name}</h3>
           <p>Price: R${product.price.toFixed(2)}</p>
           <label>
@@ -54,6 +55,7 @@
           </label>
           <p>Subtotal: R${subtotal.toFixed(2)}</p>
           <hr>
+           </div>
         `;
         cartContainer.appendChild(div);
       });
