@@ -29,18 +29,12 @@ body {
 }
 
 header {
-  position: fixed;
-  width: 95%;
-  z-index: 1000; 
   padding: 1em;
   background: var(--card-bg);
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-
-
-
 
 .cart {
   color: var(--text);
