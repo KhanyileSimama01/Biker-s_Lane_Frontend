@@ -36,6 +36,10 @@ header {
   align-items: center;
 }
 
+.total {
+  color: var(--text);
+}
+
 .nav-menu {
   list-style: none;
   display: flex;
