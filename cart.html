@@ -46,7 +46,7 @@
 
         const div = document.createElement("div");
         div.innerHTML = `
-        <div style="color: black;">
+        <div class="cart">
           <h3>${product.name}</h3>
           <p>Price: R${product.price.toFixed(2)}</p>
           <label>
@@ -61,7 +61,7 @@
       });
 
       const summary = document.createElement("div");
-      summary.innerHTML = `<h2 class="total">Total: R${total.toFixed(2)}</h2>`;
+      summary.innerHTML = `<h2 class="cart">Total: R${total.toFixed(2)}</h2>`;
       cartContainer.appendChild(summary);
     }
 
