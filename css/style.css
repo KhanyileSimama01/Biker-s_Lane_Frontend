@@ -147,5 +147,6 @@ footer {
   text-align: center;
   font-size: 1.2rem;
   margin-top: 1.5rem;
-  color: var(--text); /* Uses your theme variable */
+  color: var(--text); 
 }
+
