@@ -29,7 +29,6 @@ body {
 }
 
 header {
-  position: fixed;
   padding: 1em;
   background: var(--card-bg);
   display: flex;
