@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", function () {
     document.body.removeAttribute("data-theme");
   }
 
-  // Optional: Add theme toggle logic if the button exists
+  // Add theme toggle logic if the button exists
   const toggle = document.getElementById("themeToggle");
   if (toggle) {
     toggle.addEventListener("click", () => {
